@@ -7,12 +7,12 @@
 // 1, 7 -> такого числа в массиве нет
 
 
-int[,] CreateArray(int rows, int columns)   //метод для создания нового пустого двумерного массива
+int[,] CreateArray(int rows, int columns)  
 {
     return new int[rows, columns];
 }
 
-void Fill(int[,] array, int min, int max)                     // метод для заполнения массива случайными числами
+void Fill(int[,] array, int min, int max)                    
 {
     int rows = array.GetLength(0);
     int columns = array.GetLength(1);
@@ -25,7 +25,7 @@ void Fill(int[,] array, int min, int max)                     // метод дл
     }
 }
 
-void Print(int[,] array)    // метод для печати массива
+void Print(int[,] array)   
 {
     int rows = array.GetLength(0);
     int columns = array.GetLength(1);
